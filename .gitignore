@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Secret config files
+.env
+*.env
+.env.*
+
+!.env.example
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test & coverage files
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node modules (if using npm/yarn for frontend)
+node_modules/
+
+# Migrations (optional if you regenerate them in new environments)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
